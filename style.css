@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-wrapper{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.site-name{
+    width: 20%;
+}
+.header-nav-bar{
+    width: 80%;
+}
+.header-nav-bar ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.header-nav-bar li{
+    list-style: none;
+}
